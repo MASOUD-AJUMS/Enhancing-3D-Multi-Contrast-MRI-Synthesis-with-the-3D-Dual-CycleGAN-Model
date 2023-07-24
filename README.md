@@ -1,13 +1,8 @@
 # MedNifti_DuCycleGan
-Convert CT 3D Nifti images to PET 3D NifTi file with Dual-CycleGan
-
+Enhancing 3D Multi-Contrast MRI Synthesis with the 3D Dual-CycleGAN Model
 ## Description
 
-Computed tomography (CT) and positron emission tomography (PET) are both medical imaging techniques that allow doctors to view the inside of the body.
-
-A CT scan uses X-rays to create detailed images of the body, while a PET scan uses radioactive tracers to produce images of the body's tissues and organs. CT scans are typically used to visualize the structure of the body's organs, while PET scans are used to visualize the function of the body's organs.
-
-Both CT and PET scans can be used to diagnose a wide range of medical conditions, including cancer, heart disease, and neurological disorders. They are often used in conjunction with other diagnostic tests to help doctors make a diagnosis and determine the best course of treatment.
+GANs offer the ability to represent sharp and complex probability densities through a nonparametric approach . They have been widely adopted in medical image analysis, particularly for tasks like data augmentation and multi-modality image translations, due to their capability to handle domain shift . To address the issue of domain-specific deformations being encoded as domain-specific features and reproduced in the synthesized output, researchers have integrated CycleGAN into the training process. Previous studies have demonstrated that CycleGAN can be trained using unpaired brain data . However, these studies were more limited to training the network on a single slice and were two-dimensional in nature. Moreover, image synthesis was primarily performed within a single modality, such as synthesizing T1W from T2W or synthesizing T2W from FLAIR and vice versa. This study aims to synthesize 3D Multi-Contrast MRI using 3D Dual-CycleGAN.
 ## Getting Started
 
 ### Dependencies
@@ -42,6 +37,7 @@ Contributors names and contact info
 
 Ali Mahboubisarighieh
 mahboubi.ali1991@gmail.com
+,
 Seyed Masoud Rezaeijo
 masoudrezayi1398@gmail.com
 
