@@ -42,14 +42,12 @@ Contributors names and contact info
 
 Ali Mahboubisarighieh
 mahboubi.ali1991@gmail.com
+Seyed Masoud Rezaeijo
+masoudrezayi1398@gmail.com
 
 ## Version History
 
 * 0.1
     * Initial Release
-
-## License
-
-This project is licensed under the AliMahboubi License - see the LICENSE.md file for details
 
 
